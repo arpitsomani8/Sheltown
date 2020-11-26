@@ -403,13 +403,13 @@ input[type="email"] {
 /*----------------------------Transactions-----------------*/
 
 .redText {
-  color: red;
+  background-color: red;
 }
 .greenText {
-  color: #0f0;
+  background-color: #0f0;
 }
 .yellowText {
-  color: yellow;
+  background-color: yellow;
 }
 /*--------------------------------right side end------------------------------------------------*/
 footer {
