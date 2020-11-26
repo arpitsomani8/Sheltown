@@ -74,9 +74,9 @@
                   <li>Code : 0987654321123456</li>
                   <div class="dropdown-container">
                     <label>Coupon Status : </label>
-                    <select id="mySelect" class="greenText">
-                      <option class="greenText" value="" selected>Read To Use</option>
+                    <select onchange="this.className=this.options[this.selectedIndex].className" class="greenText">
                     
+                      <option class="greenText" value="" selected>Ready To Use</option>
                       <option class="redText" value="">Expired</option>
                     </select></div>
                   <li style="display: inline-block;">Comment: <textarea class="form-control" rows="1"
@@ -101,9 +101,9 @@
                   <li>Code : 0987654321123456</li>
                   <div class="dropdown-container">
                     <label>Coupon Status : </label>
-                    <select id="mySelected" class="greenText">
-                      <option class="greenText" value="" selected>Read To Use</option>
+                    <select onchange="this.className=this.options[this.selectedIndex].className" class="greenText">
                     
+                      <option class="greenText" value="" selected>Ready To Use</option>
                       <option class="redText" value="">Expired</option>
                     </select></div>
                   <li style="display: inline-block;">Comment: <textarea class="form-control" rows="1"
@@ -124,8 +124,7 @@
   </div>
 
   <!---------------------------------mobile view end-------------------------- -->
-<script src="./js/color.js"></script>
-<script src="./js/colorcup.js"></script>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
