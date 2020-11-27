@@ -487,6 +487,13 @@ input[type="email"] {
   padding: 10px;
 }
 
+/*---------------24*7 assistance------------------------------------*/
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*--------------------------------right side end------------------------------------------------*/
 footer {
   color: #fff;
