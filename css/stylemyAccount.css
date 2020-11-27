@@ -533,3 +533,41 @@ footer a {
     font-size: 12px;
   }
 }
+
+
+
+
+
+
+
+ <button class="btn bg-warning b" style="display: inline">
+                Attach Image
+              </button>
+              <p style="display: inline">(Optional)</p>
+              <br />
+              <br />
+              <div class="center">
+                <button
+                  style="display: block"
+                  type="button"
+                  class="btn btn-info"
+                >
+                  Submit Concern
+                </button>
+              </div>
+
+
+
+
+
+
+              <div class="col-4">
+                  <div>
+                    <label></label>
+                    <select name="User Types" id="">
+                      <option selected disabled>User Types</option>
+                      <option value="">option 1</option>
+                      <option value="">option 2</option>
+                    </select>
+                  </div>
+                </div>
