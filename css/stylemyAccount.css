@@ -209,7 +209,7 @@ header {
 .fa-bell,
 .fa-hand-holding-heart,
 .fa-handshake-o,
-.fa-lock,
+.fa-user-shield,
 .fa-heart {
   color: #2ecab6;
   margin-right: 15px;
@@ -355,6 +355,34 @@ ul.breadcrumb li a:hover {
 .rate > label:hover ~ input:checked ~ label {
   color: #c59b08;
 }
+
+.rates {
+  float: left;
+  height: 46px;
+  padding: 0 10px;
+}
+.rates:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+}
+.rates:not(:checked) > label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 30px;
+  color: #ccc;
+}
+.rates:not(:checked) > label:before {
+  content: "★ ";
+}
+.rates > input:checked ~ label {
+  color: #ffc700;
+}
+.modalf p {
+  font-size: 12px;
+}
 /*--------------------------------verify yourself section-----------------------------*/
 .verification {
   margin: 10px 0px;
@@ -450,6 +478,13 @@ input[type="email"] {
 }
 .yellowText {
   background-color: yellow;
+}
+
+/*---------------my review and ratings------------------------------------*/
+
+.images img {
+  height: 250px !important;
+  padding: 10px;
 }
 
 /*--------------------------------right side end------------------------------------------------*/
