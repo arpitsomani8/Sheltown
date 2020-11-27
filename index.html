@@ -338,7 +338,7 @@
                                 </a>
                               </div>
                               <div style="display: inline;">
-                                <select name="DOBMonth">
+                                <select name="DOBMonth" style="padding: 2px;">
                                   <option>Select Month</option>
                                   <option value="January">January</option>
                                   <option value="Febuary">Febuary</option>
@@ -355,7 +355,7 @@
                                 </select>
                       
                                 <label for="start">Year:</label>
-                                <select name="select" id="dropdownYear" onchange="getProjectReportFunc()">
+                                <select style="padding: 2px;" name="select" id="dropdownYear" onchange="getProjectReportFunc()">
                                 </select>
                               </div>
                               <div style="margin: 10px 0;"><a type="button" class="btn btn-info" href="#" data-dismiss="modal"
@@ -624,7 +624,7 @@
                     
                     <div class="dropdown-container">
                       <label>Verification Status:</label>
-                    <select name="cars" id="cars">
+                    <select name="cars" id="cars" style="padding: 5px;">
                       <option value="none">Verification pending</option>
                       <option value="none">Verification Successful</option>
                     </select></div>
@@ -723,7 +723,7 @@
                           <div class="col-2">
                             <div class="dropdown-container">
                               <label></label>
-                              <select onchange="this.className=this.options[this.selectedIndex].className" class="greenText">
+                              <select onchange="this.className=this.options[this.selectedIndex].className" class="greenText" style="padding: 5px;">
                               <option class="greenText" value="" selected>Success</option>
                               <option class="yellowText" value="">Pending</option>
                               <option class="redText" value="">Failed</option>
