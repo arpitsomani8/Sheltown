@@ -513,6 +513,11 @@ footer a {
     padding-top: 20px;
   }
 }
+@media (max-width: 1322px) {
+  .ready {
+    padding: 0 0 0 0 !important;
+  }
+}
 @media (max-width: 1098px) and (min-width: 770px) {
   .carousel {
     width: 200px;
