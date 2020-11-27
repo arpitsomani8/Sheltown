@@ -479,6 +479,9 @@ input[type="email"] {
 .yellowText {
   background-color: yellow;
 }
+.blueText {
+  background-color: rgb(14, 68, 247);
+}
 
 /*---------------my review and ratings------------------------------------*/
 

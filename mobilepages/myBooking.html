@@ -78,10 +78,14 @@
                         <li>
                             <div class="dropdown-container">
                                 <label>Booking Status:</label>
-                                <select name="" id="">
-                                    <option value="">Booking Confirmed</option>
-                                    <option value="">Booking Pending</option>
+                                <select onchange="this.className=this.options[this.selectedIndex].className" class="greenText"
+                                    style="padding: 5px;">
+                                    <option class="greenText" value="" selected>Booking Confirmed</option>
+                                    <option class="yellowText" value="">Booking Pending</option>
+                                    <option class="redText" value="">Booking Cancelled</option>
+                                    <option class="blueText" value="">Booking Settled</option>
                                 </select>
+                            
                             </div>
                         </li>
                         <li style=" font-size: 16px;color: grey; padding: 0 0 0 115px;"> Ready To Move In</li>
@@ -267,7 +271,7 @@
                             </a>
         
                             <a style="display: inline; " href="#" style="color: #23b6ae">
-                                <h6 style="display: inline;">offers</h6>
+                                <h6 style="display: inline;">Offers</h6>
                             </a>
         
         
